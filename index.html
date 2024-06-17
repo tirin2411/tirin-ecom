@@ -9,96 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Website T test</title>
-	  
-	  <!-- CDP Web Insight script -->
-<script type = "text/javascript" >
-   var _portalId = "564891336"; // Portal Portal Staging 2 
-   var _propId = "564999198"; 
-   var _ATM_TRACKING_ASSOCIATE_UTM = 0 ; // https://antsomi.com/ 
-(function() {
-    var w = window;
-    if (w.web_event) return;
-    var a = window.web_event = function() {
-        a.queue.push(arguments);
-    }
-    a.propId = _propId;
-    a.track = a;
-    a.queue = [];
-    var e = document.createElement("script");
-    e.type = "text/javascript", e.async = !0, e.src = "//st-a.cdp.asia/insight.js";
-    var t = document.getElementsByTagName("script")[0];
-    t.parentNode.insertBefore(e, t)
-})(); </script>
-<!-- End of CDP Web Insight script -->
-
-	<!-- CDP Web Insight script -->
-	<script src="https://sandbox-template.ants.vn/khanhhv/webpush.js" async=""></script>
-	  <script src="https://st-a.cdp.asia/antsomiSDKsw.js" async=""></script>
-	<script>
-	  window.AntsomiPush = window.AntsomiPush || [];
-	
-	  AntsomiPush.push(function() {
-	    AntsomiPush.init({
-	      portalId: 33167,
-	    });
-	  });
-	</script>
-	<!-- End of CDP Web Insight script -->
-	  
-	  
-    <!-- bắn event viewpage -->
-    <script type="text/javascript">  
-     var _cdp365Analytics = {
-	    //dims: { users: { ga_uid: "GA UID VALUE", "source": "Gen 2 Website" }}
-        var ic = ["test","array","string","event"];
-        extra: {
-             "interest_cate": ic
-         }
-     };
-
-      var _cdp365PageviewTracking = function(){
-        var referrerUrl = '';
-        var timer = setInterval(function(){
-          var currentUrl = window.location.href;
-          if(currentUrl != referrerUrl){
-            web_event.track('pageview','view', {custom_event:1});
-            referrerUrl = currentUrl;
-          }
-        }, 500);
-      };
-      _cdp365PageviewTracking();
-    </script>
-
-    
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<!--     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries --> -->
-<!--     <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-messaging.js"></script> -->
-	
-	<script>
-	  window.fbAsyncInit = function() {
-	    FB.init({
-	      appId      : '{your-app-id}',
-	      cookie     : true,
-	      xfbml      : true,
-	      version    : '{api-version}'
-	    });
-	      
-	    FB.AppEvents.logPageView();   
-	      
-	  };
-	
-	  (function(d, s, id){
-	     var js, fjs = d.getElementsByTagName(s)[0];
-	     if (d.getElementById(id)) {return;}
-	     js = d.createElement(s); js.id = id;
-	     js.src = "https://connect.facebook.net/en_US/sdk.js";
-	     fjs.parentNode.insertBefore(js, fjs);
-	   }(document, 'script', 'facebook-jssdk'));
-	</script>
-
+    <title>Website TIRIN</title>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -117,48 +28,12 @@ TemplateMo 571 Hexashop
 https://templatemo.com/tm-571-hexashop
 
 -->
-   
-    <!-- This site is converting visitors into subscribers and customers with omi - https://omi.optinforms.com -->
-<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.account=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,156081,169882);</script>
-<!-- / https://omi.optinforms.com -->
-
-<!-- <script src="https://sandbox-template.ants.vn/khanhhv/antsomi-webinbox/index.js?v=1"></script> -->
-	  <script src="https://st-platform.ants.tech/js/libs/app-inbox/app-inbox.min.js"></script>
-	  
-	  
+  
     
     </head>
     
     <body>
-      
-<!--     <script>
-      var firebaseConfig = {
-        apiKey: "AIzaSyDQsvFe8enUcw3TB0EWxhhpH5Rxj2g4hx0",
-        authDomain: "t-test-b0c6f.firebaseapp.com",
-        projectId: "t-test-b0c6f",
-        storageBucket: "t-test-b0c6f.appspot.com",
-        messagingSenderId: "933347335505",
-        appId: "1:933347335505:web:d58c7438fcc3bbb8f44770",
-        measurementId: "G-DSPXJ9XZ15"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-      const messaging = firebase.messaging()
-      navigator.serviceWorker.register('trinhtest/ecommercetest/firebase-messaging-sw.js')
-        .then((register) => {
-          messaging.requestPermission().then(() => {
-            messaging.getToken()
-            .then((fcmToken) => {
-              console.log(fcmToken)
-              messaging.onMessage((payload) => {
-                console.log("onMessage event fired",payload)
-              })
-            });
-          });
-        })
-    </script> -->
-      
+  
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
